@@ -6,7 +6,9 @@
 
 # Commit Msg Hook (Enforce Commit Message Format)
 
-Ensures commit messages follow a specific pattern. File: .git/hooks/commit-msg
+Ensures commit messages follow a specific pattern. 
+File: .git/hooks/commit-msg
+
 ```
 # !/bin/sh
 COMMIT_MSG_FILE=$1
